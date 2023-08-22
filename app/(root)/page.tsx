@@ -1,3 +1,4 @@
+import { UserButton } from "@clerk/nextjs";
 import Image from 'next/image'
 
 export default function Home() {
@@ -6,6 +7,9 @@ export default function Home() {
       <h1>
         Hello :O ---- Welcome to Drift ^_^
       </h1>
+      <div>
+      <UserButton afterSignOutUrl="/"/>
+    </div>
     </main>
   )
 }
