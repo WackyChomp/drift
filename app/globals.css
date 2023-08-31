@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +28,23 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+@layer components{
+  /* ------------ Main Root ------------ */
+  .main-container{
+    @apply flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
+  }
+
+  /* ------------ Navbar ------------ */
+  .navbar{
+    @apply fixed top-0 z-30 flex w-full items-center justify-between bg-dark-2 px-6 py-3;
+  }
+
+  /* ------------ Left Sidebar ------------ */
+
+  /* ------------ Right Sidebar ------------ */
+
+  /* ------------ Footer ------------ */
 }
