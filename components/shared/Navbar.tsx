@@ -18,7 +18,7 @@ const Navbar = (props: Props) => {
             <SignOutButton>
               <div className="flex cursor-pointer">
                 <Image
-                  src='https://media.tenor.com/ZFoOuUSqPBEAAAAi/stalzone-meme.gif'
+                  src='https://media4.giphy.com/media/10QZvWwBUQbpqE/giphy.gif'
                   alt='logout'
                   width={25}
                   height={25}
@@ -28,11 +28,10 @@ const Navbar = (props: Props) => {
           </SignedIn>
         </div>
         
-        <div className='text-yellow-300'>Organization Switcher Goes Here</div>
         <OrganizationSwitcher 
           appearance={{
             elements: {
-              organizationSwitcherTrigger: 'py-4 px-10'
+              organizationSwitcherTrigger: 'py-2 px-5'
             }
           }}
         />
