@@ -7,14 +7,15 @@ type Props = {}
 
 const LeftSidebar = (props: Props) => {
   return (
-    <section className='custom-scrollbar-leftsidebar'>
-      <div>LeftSidebar</div>
+    <section className='custom-scrollbar leftsidebar'>
+      <div className='text-red-400 flex justify-center uppercase'>LeftSidebar</div>
+
       <div className="flex w-full flex-1 flex-col gap-6 px-6">
         {sidebarLinks.map((link) => (
           <Link 
             href={link.route}
             key={link.label}
-            className='leftsidebar_link'
+            className='leftsidebar-link'
           >
             <Image 
               src={link.imgUrl}
