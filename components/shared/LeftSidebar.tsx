@@ -23,7 +23,7 @@ const LeftSidebar = (props: Props) => {
               width={20}
               height={20}
             />
-            <p>{link.label}</p>
+            <p className='text-light-1 max-lg:hidden'>{link.label}</p>
           </Link>
         ))}
       </div>

@@ -8,10 +8,86 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      /* --------------- container --------------- */
+      container:{
+        center: true,
+        padding: '5rem',
+        screens: {
+          '2xl': '1400px',
+        },
+      },
+      /* --------------- Font Sizes --------------- */
+      fontSize: {
+        'heading1-bold': [
+          '36px',
+          {
+            lineHeight: '140%',
+            fontWeight: '700'
+          }
+        ],
+        'heading2-bold': [
+          '30px',
+          {
+            lineHeight: '140%',
+            fontWeight: '700'
+          }
+        ],
+        'heading3-bold': [
+          '24px',
+          {
+            lineHeight: '140%',
+            fontWeight: '700'
+          }
+        ],
+        'body-bold': [
+          '18px',
+          {
+            lineHeight: '140%',
+            fontWeight: '700'
+          }
+        ],
+        'body-medium': [
+          '18px',
+          {
+            lineHeight: '140%',
+            fontWeight: '500'
+          }
+        ],
+        'body-normal': [
+          '18px',
+          {
+            lineHeight: '140%',
+            fontWeight: '400'
+          }
+        ],
+        'body1-bold': [
+          '18px',
+          {
+            lineHeight: '140%',
+            fontWeight: '700'
+          }
+        ],
+        'base-regular': [
+          '16px',
+          {
+            lineHeight: '140%',
+            fontWeight: '400'
+          }
+        ],
+        'small-regular': [
+          '14px',
+          {
+            lineHeight: '140%',
+            fontWeight: '400'
+          }
+        ],
+        // 'EXAMPLE': [
+        //   '24px',
+        //   {
+        //     lineHeight: '140%',
+        //     fontWeight: '700'
+        //   }
+        // ],
       },
       /* ---------------New Additions Below--------------- */
       colors: {

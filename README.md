@@ -49,3 +49,23 @@
 </details>
 
 
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Helpful resources for inspiration or point you into a direction:
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Font Awesome](https://fontawesome.com)
+<br>
+<br>
+* [MongoDB](https://www.mongodb.com/) - Remote cloud database
+* [Next.js](https://nextjs.org/) - React Framework
+* [Clerk](https://clerk.com/) - Authentication + User Management
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
