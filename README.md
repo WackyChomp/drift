@@ -50,6 +50,15 @@
 
 
 
+<!-- About the Project -->
+## About The Project
+Online are full of chasms leading to all kinds of groups/people with different beliefs and interests. It can be lonesome trying to navigate the vast digital world and finding that sense of belongingness.
+
+Searching for a niche community/platform independent of larger platforms? Look no further and find that here at, <b>Drift</b>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
