@@ -5,6 +5,8 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname, useRouter } from 'next/navigation';
+import { SignedIn, SignOutButton, OrganizationSwitcher } from '@clerk/nextjs';
+
 
 type Props = {}
 
@@ -40,6 +42,22 @@ const LeftSidebar = (props: Props) => {
 
       </div>
 
+
+      <div className="mt-10 px-5">
+        <SignedIn>
+            <SignOutButton>
+              <div className="flex cursor-pointer gap-4 p-4">
+                <Image
+                  src='https://media4.giphy.com/media/10QZvWwBUQbpqE/giphy.gif'
+                  alt='logout'
+                  width={25}
+                  height={25}
+                />
+                <p className="text-light-2 max-lg:hidden">Log Outta Here!</p>
+              </div>
+            </SignOutButton>
+          </SignedIn>
+      </div>
     </section>
   )
 }
