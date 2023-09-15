@@ -8,12 +8,12 @@ import { usePathname } from 'next/navigation';
 
 type Props = {}
 
-const Footer = (props: Props) => {
+const BottomBar = (props: Props) => {
   const pathname = usePathname();
 
   return (
-    <section className="footer">
-      <div className="footer-container">
+    <section className="bottom-bar">
+      <div className="bottom-bar-container">
         {sidebarLinks.map((link) => {
 
           const isActive = (pathname.includes(link.route) && link.route.length > 1) || pathname === link.route;
@@ -39,4 +39,4 @@ const Footer = (props: Props) => {
   )
 }
 
-export default Footer
+export default BottomBar

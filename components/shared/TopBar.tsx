@@ -4,9 +4,9 @@ import { SignedIn, SignOutButton, OrganizationSwitcher } from '@clerk/nextjs';
 
 type Props = {}
 
-const Navbar = (props: Props) => {
+const TopBar = (props: Props) => {
   return (
-    <nav className='navbar'>
+    <nav className='topbar'>
       <Link href='/' className='flex items-center gap-4'>
         <Image src='https://media.tenor.com/ZFoOuUSqPBEAAAAi/stalzone-meme.gif' alt='' width={30} height={30} />
         <p className="text-heading3-bold text-light-1 max-xs:hidden">Drift</p>
@@ -41,4 +41,4 @@ const Navbar = (props: Props) => {
   )
 }
 
-export default Navbar
+export default TopBar

@@ -159,8 +159,8 @@ body {
     @apply flex min-h-screen flex-1 flex-col items-center bg-dark-4 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
   }
 
-  /* ------------ Navbar ------------ */
-  .navbar{
+  /* ------------ Top Bar ------------ */
+  .topbar{
     @apply fixed top-0 z-30 flex w-full items-center justify-between bg-dark-2 px-6 py-3;
   }
 
