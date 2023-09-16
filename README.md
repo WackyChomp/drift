@@ -59,6 +59,21 @@ Searching for a niche community/platform independent of larger platforms? Look n
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+### Built With
+
+This section includes a list major frameworks/libraries used in this project:
+
+* [![TypeScript][TypeScript]][TypeScript-url]
+* [![React][React.js]][React-url]
+* [![Next.js][Next.js]][Next-url]
+* [![Tailwind][Tailwind.css]][Tailwind-url]
+* [![MongoDB][MongoDB]][MongoDB-url]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -78,3 +93,24 @@ Helpful resources for inspiration or point you into a direction:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[Bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]:https://getbootstrap.com
+[TypeScript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[TypeScript-url]: https://www.typescriptlang.org/
+
+
+[MongoDB]:https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Tailwind.css]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
