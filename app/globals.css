@@ -166,7 +166,7 @@ body {
 
   /* ------------ Left Sidebar ------------ */
   .leftsidebar{
-    @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto border-r border-r-dark-4 bg-dark-2 pb-5 pt-28 max-md:hidden;
+    @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto border-r border-r-dark-4 bg-slate-600 pb-5 pt-28 max-md:hidden;
   }
 
   .leftsidebar-link{
@@ -174,6 +174,10 @@ body {
   }
 
   /* ------------ Right Sidebar ------------ */
+  .rightsidebar{
+    @apply sticky right-0 top-0 z-20 flex h-screen w-fit flex-col justify-between gap-12 overflow-auto border-l border-l-dark-4 bg-slate-600 px-10 pb-7 pt-28 max-xl:hidden;
+  }
+  
 
   /* ------------ Bottom Bar ------------ */
   .bottombar{

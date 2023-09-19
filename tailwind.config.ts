@@ -25,6 +25,13 @@ const config: Config = {
             fontWeight: '700'
           }
         ],
+        'heading1-medium': [
+          '36px',
+          {
+            lineHeight: '140%',
+            fontWeight: '500'
+          }
+        ],
         'heading2-bold': [
           '30px',
           {
@@ -32,11 +39,25 @@ const config: Config = {
             fontWeight: '700'
           }
         ],
+        'heading2-medium': [
+          '30px',
+          {
+            lineHeight: '140%',
+            fontWeight: '500'
+          }
+        ],
         'heading3-bold': [
           '24px',
           {
             lineHeight: '140%',
             fontWeight: '700'
+          }
+        ],
+        'heading3-medium': [
+          '24px',
+          {
+            lineHeight: '140%',
+            fontWeight: '500'
           }
         ],
         'body-bold': [
