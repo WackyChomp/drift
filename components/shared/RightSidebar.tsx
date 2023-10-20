@@ -8,6 +8,10 @@ const RightSidebar = (props: Props) => {
       <div className="text-heading3-medium text-yellow-500 flex flex-1 flex-col justify-start">
         <h3>Suggested Communities</h3>
       </div>
+
+      <div className="text-heading3-medium text-pink-500 flex flex-1 flex-col justify-start">
+        <h3>Latest News</h3>
+      </div>
     </section>
   )
 }
