@@ -1,11 +1,16 @@
+'use client'
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { SignedIn, SignOutButton, OrganizationSwitcher } from '@clerk/nextjs';
 import { dark } from '@clerk/themes';
+import { useRouter } from 'next/navigation';
 
 type Props = {}
 
 const TopBar = (props: Props) => {
+  const router = useRouter();
+
   return (
     <nav className='topbar'>
       <Link href='/' className='flex items-center gap-4'>
@@ -16,7 +21,7 @@ const TopBar = (props: Props) => {
       <div className="flex items-center gap-1">
         <div className="block md:hidden">
           <SignedIn>
-            <SignOutButton>
+            <SignOutButton signOutCallback={() => router.push('/sign-in')}>
               <div className="flex cursor-pointer">
                 <Image
                   src='https://media4.giphy.com/media/10QZvWwBUQbpqE/giphy.gif'
@@ -31,7 +36,7 @@ const TopBar = (props: Props) => {
         
         <OrganizationSwitcher 
           appearance={{
-            baseTheme: dark,
+            baseTheme: dark,    // makes text white for dark backgrounds
             elements: {
               organizationSwitcherTrigger: 'py-2 px-5'
             }
