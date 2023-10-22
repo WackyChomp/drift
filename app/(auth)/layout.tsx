@@ -1,8 +1,9 @@
+import type { Metadata } from 'next';
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from 'next/font/google';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Drift',
   description: 'Platform to engage with people civilly'
 }
