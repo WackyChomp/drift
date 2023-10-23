@@ -85,12 +85,10 @@ Helpful resources for inspiration or point you into a direction:
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Font Awesome](https://fontawesome.com)
-<br>
-<br>
 * [MongoDB](https://www.mongodb.com/) - Remote cloud database
 * [Next.js](https://nextjs.org/) - React Framework
 * [Clerk](https://clerk.com/) - Authentication + User Management
-
+* [Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
