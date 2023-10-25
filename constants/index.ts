@@ -20,6 +20,11 @@ export const sidebarLinks = [
     route: '/messages',
     label: 'Messages',
   },
+  {
+    imgUrl: 'https://media4.giphy.com/media/10QZvWwBUQbpqE/giphy.gif',
+    route: '/test-onboarding',
+    label: 'Test Onboarding',
+  },
   // {
   //   imgUrl: '',
   //   route: '/',
