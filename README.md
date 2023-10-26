@@ -74,6 +74,27 @@ This section includes a list major frameworks/libraries used in this project:
 
 
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites / Setup
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/WackyChomp/drift.git
+   ```
+2. Install NPM packages into root directory or same directory as "<u>package.json</u>"
+   ```sh
+   npm install
+   ```
+3. Running on local computer
+   ```
+    [Run command in root directory] --- npm run dev
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -85,11 +106,11 @@ Helpful resources for inspiration or point you into a direction:
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Font Awesome](https://fontawesome.com)
-<br>
-<br>
+<br><br>
 * [MongoDB](https://www.mongodb.com/) - Remote cloud database
 * [Next.js](https://nextjs.org/) - React Framework
 * [Clerk](https://clerk.com/) - Authentication + User Management
+* [Shadcn/ui](https://ui.shadcn.com/docs) - Customizable UI components
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
