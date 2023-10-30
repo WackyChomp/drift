@@ -77,7 +77,7 @@ const AccountProfile = (btnTitle, user: Props) => {
                     />
                   ): (
                     <Image 
-                      src=''
+                      src='https://img.icons8.com/ios/200/image--v1.png'
                       alt='profile photo'
                       width={24}
                       height={24}
@@ -94,7 +94,7 @@ const AccountProfile = (btnTitle, user: Props) => {
                     onChange={(e) => handleImage(e, field.onChange)}
                   />
                 </FormControl>
-                <FormDescription>
+                <FormDescription className='account-form_form-desc'>
                   Your public profile image
                 </FormDescription>
                 <FormMessage />
@@ -107,8 +107,8 @@ const AccountProfile = (btnTitle, user: Props) => {
             control={form.control}
             name="name"
             render={({ field }) => (
-              <FormItem className='flex items-center gap-5 w-full'>
-                <FormLabel className='text-base-semibold text-yellow-400'>
+              <FormItem className='flex flex-col gap-2 w-full'>
+                <FormLabel className='flex text-base-semibold text-yellow-400'>
                   Name
                 </FormLabel>
                 <FormControl className='flex-1 text-base-semibold text-red-500'>
@@ -142,7 +142,7 @@ const AccountProfile = (btnTitle, user: Props) => {
                     placeholder="shadcn" {...field} 
                   />
                 </FormControl>
-                <FormDescription>
+                <FormDescription className='account-form_form-desc'>
                   Online alias and what everyone sees
                 </FormDescription>
                 <FormMessage />
@@ -166,7 +166,7 @@ const AccountProfile = (btnTitle, user: Props) => {
                     placeholder="shadcn" {...field} 
                   />
                 </FormControl>
-                <FormDescription>
+                <FormDescription className='account-form_form-desc'>
                   Share a few sentences about yourself
                 </FormDescription>
                 <FormMessage />
@@ -175,7 +175,7 @@ const AccountProfile = (btnTitle, user: Props) => {
           />
 
 
-          <Button type="submit" className='bg-red-500'>Submit</Button>
+          <Button type="submit" className='bg-primary-500'>Submit</Button>
         </form>
       </Form>
     </div>
