@@ -2,6 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { ChangeEvent } from 'react';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form'
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
@@ -31,19 +33,38 @@ type Props = {
   }
 }
 
-const AccountProfile = (btnTitle, user: Props) => {
+const AccountProfile = ({ btnTitle, user }: Props) => {
+  const [files, setFiles] = useState<File[]>([])
+
+
   const form = useForm({
     resolver: zodResolver(UserValidation),
     defaultValues: {
-      profile_photo: '',
-      name: '',
-      username: '',
-      bio: '',
+      profile_photo: user?.image || '',
+      name: user?.name || '',
+      username: user?.username || '',
+      bio: user?.bio || '',
     }
   });
 
-  const handleImage = (e: ChangeEvent, fieldChange: (value: string) => void) => {
+  const handleImage = (e: ChangeEvent<HTMLInputElement>, fieldChange: (value: string) => void) => {
     e.preventDefault();
+
+    const fileReader = new FileReader();
+    if(e.target.files && e.target.files.length > 1){
+      const file = e.target.files[0];
+
+      setFiles(Array.from(e.target.files));
+
+      if(!file.type.includes('image')) return;
+
+      fileReader.onload = async (event) => {
+        const imageDataUrl = event.target?.result?.toString() || '';
+        fieldChange(imageDataUrl);
+      }
+
+      fileReader.readAsDataURL(file);
+    }
   }
 
   function onSubmit(values: z.infer<typeof UserValidation>) {
@@ -68,7 +89,7 @@ const AccountProfile = (btnTitle, user: Props) => {
                 <FormLabel className='account-form_image-label'>
                   {field.value? (
                     <Image 
-                      src={field.photo}
+                      src={field.value}
                       alt='profile photo'
                       width={96}
                       height={96}
@@ -91,6 +112,7 @@ const AccountProfile = (btnTitle, user: Props) => {
                     accept='image/*'
                     className='account-form_image-input'
                     placeholder="shadcn" {...field} 
+                    value={undefined}     // fixes
                     onChange={(e) => handleImage(e, field.onChange)}
                   />
                 </FormControl>

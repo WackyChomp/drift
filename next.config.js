@@ -23,6 +23,10 @@ module.exports = {
         hostname: 'img.icons8.com',
         pathname: '/ios/200/image--v1.png',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.clerk.com',
+      },
     ],
   },
 }
