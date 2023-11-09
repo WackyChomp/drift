@@ -56,6 +56,12 @@ Online are full of chasms leading to all kinds of groups/people with different b
 
 Searching for a niche community/platform independent of larger platforms? Look no further and find that here at, <b>Drift</b>
 
+<u><b>Project Purpose / Vision:</b></u>
+* Utilizing open source tools to prototype online communication platform
+* Storing user generated content with remote database <u>MongoDB</u>
+* Handling user authentication with <u>Clerk</u>
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -91,6 +97,21 @@ This section includes a list major frameworks/libraries used in this project:
    ```
     [Run command in root directory] --- npm run dev
    ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+- [ ] Finalize color scheme
+- [ ] Finalize logo
+- [ ] Connect to MongoDB (database)
+- [ ] Deploy project
+    - [ ] 
+    - [ ] 
+
+See the [open issues](https://github.com/WackyChomp/drift/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

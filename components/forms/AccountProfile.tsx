@@ -51,7 +51,7 @@ const AccountProfile = ({ btnTitle, user }: Props) => {
     e.preventDefault();
 
     const fileReader = new FileReader();
-    if(e.target.files && e.target.files.length > 1){
+    if(e.target.files && e.target.files.length > 0){
       const file = e.target.files[0];
 
       setFiles(Array.from(e.target.files));
@@ -70,7 +70,10 @@ const AccountProfile = ({ btnTitle, user }: Props) => {
   function onSubmit(values: z.infer<typeof UserValidation>) {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
-    console.log(values)
+    // console.log(values)
+
+    const blob = values.profile_photo;
+    
   }
 
   return (
