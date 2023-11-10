@@ -72,8 +72,6 @@ const AccountProfile = ({ btnTitle, user }: Props) => {
     // ✅ This will be type-safe and validated.
     // console.log(values)
 
-    const blob = values.profile_photo;
-    
   }
 
   return (
