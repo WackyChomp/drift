@@ -56,6 +56,12 @@ Online are full of chasms leading to all kinds of groups/people with different b
 
 Searching for a niche community/platform independent of larger platforms? Look no further and find that here at, <b>Drift</b>
 
+<u><b>Project Purpose / Vision:</b></u>
+* Utilizing open source tools to prototype online communication platform
+* Storing user generated content with remote database <u>MongoDB</u>
+* Handling user authentication with <u>Clerk</u>
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -74,6 +80,42 @@ This section includes a list major frameworks/libraries used in this project:
 
 
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites / Setup
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/WackyChomp/drift.git
+   ```
+2. Install NPM packages into root directory or same directory as "<u>package.json</u>"
+   ```sh
+   npm install
+   ```
+3. Running on local computer
+   ```
+    [Run command in root directory] --- npm run dev
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+- [ ] Finalize color scheme
+- [ ] Finalize logo
+- [ ] Connect to MongoDB (database)
+- [ ] Deploy project
+    - [ ] 
+    - [ ] 
+
+See the [open issues](https://github.com/WackyChomp/drift/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -85,10 +127,14 @@ Helpful resources for inspiration or point you into a direction:
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Font Awesome](https://fontawesome.com)
+
+<br><br>
 * [MongoDB](https://www.mongodb.com/) - Remote cloud database
 * [Next.js](https://nextjs.org/) - React Framework
 * [Clerk](https://clerk.com/) - Authentication + User Management
+* [Shadcn/ui](https://ui.shadcn.com/docs) - Customizable UI components
 * [Tailwind CSS](https://tailwindcss.com/docs/installation)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
