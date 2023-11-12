@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { SignedIn, SignOutButton, OrganizationSwitcher } from '@clerk/nextjs';
+import { SignInButton, SignedIn, SignedOut, SignOutButton, OrganizationSwitcher } from '@clerk/nextjs';
 import { dark } from '@clerk/themes';
 import { useRouter } from 'next/navigation';
 
@@ -19,6 +19,14 @@ const TopBar = (props: Props) => {
       </Link>
 
       <div className="flex items-center gap-1">
+
+        <SignedOut>
+          <div className="bg-primary-500 p-1.5 rounded-md text-white">
+            <SignInButton>Sign In</SignInButton>
+          </div>
+        </SignedOut>
+
+
         <div className="block md:hidden">
           <SignedIn>
             <SignOutButton signOutCallback={() => router.push('/sign-in')}>
@@ -33,6 +41,7 @@ const TopBar = (props: Props) => {
             </SignOutButton>
           </SignedIn>
         </div>
+        
         
         <OrganizationSwitcher 
           appearance={{
