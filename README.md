@@ -127,7 +127,6 @@ Helpful resources for inspiration or point you into a direction:
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Font Awesome](https://fontawesome.com)
-
 <br><br>
 * [MongoDB](https://www.mongodb.com/) - Remote cloud database
 * [Next.js](https://nextjs.org/) - React Framework

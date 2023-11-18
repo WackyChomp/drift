@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="90oeYW0IWFOATV8g6B-m" name="Page-1">
+        <mxGraphModel dx="1056" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="Server Side Rendered Page" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="360" width="540" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Client Component 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="40" y="40" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Client Component 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="150" y="40" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Page" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="110" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Javascript Function Action" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="7">
+                    <mxGeometry x="150" y="110" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7" source="27" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Database" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="7">
+                    <mxGeometry x="310" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7" source="26" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Previously: request Node.js server to fetch user data from database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="20" width="380" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Node.js Server" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="70" width="130" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Fetch User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="11">
+                    <mxGeometry x="25" y="40" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="API Endpoint 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="11">
+                    <mxGeometry x="20" y="85" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="API Endpoint 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="11">
+                    <mxGeometry x="20" y="140" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.01;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Client Side React App" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="70" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Client Component" style="whiteSpace=wrap;html=1;" vertex="1" parent="12">
+                    <mxGeometry x="20" y="40" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Client Component" style="whiteSpace=wrap;html=1;" vertex="1" parent="12">
+                    <mxGeometry x="110" y="40" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Database" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Currently with Next.js: webpage can request directly to database with JS function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="310" width="465" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="300" as="sourcePoint"/>
+                        <mxPoint x="730" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
